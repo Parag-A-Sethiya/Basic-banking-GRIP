@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>customer</title>
+    <style type="text/css">
+    	
+      div{
+     	border: 5px;
+     	border-style: solid;
+     	border-color: brown;
+     	border-radius: 20px;
+     	
+     	font-size: 40px;
+     	width: 55%;
+     	height: 50%;
+     	margin: auto;
+     	margin-top: 13%
+     }
+     
+
+input[type=submit]{
+  background-color: brown;
+  border: none;
+  color: white;
+  
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 13px;
+}
+    
+    #parag:hover{border: 2px solid black;}
+   
+
+    </style>
+</head>
+  
+<body style="background-color: #f2f2f2">
+    <center>
+        <h1>Individual Customer Details</h1>
+  
+        <form action="http://localhost/parag/viewc.php" method="post">
+
+            <div>  
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="first_name" id="firstName" required>
+            </p>
+
+            
+
+            <input type="submit" value="Submit" id="parag">
+        </div>
+        </form>
+    </center>
+</body>
+  
+</html>

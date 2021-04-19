@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>customer</title>
+    <style type="text/css">
+    	
+      div{
+     	border: 5px;
+     	border-style: solid;
+     	border-color: brown;
+     	border-radius: 20px;
+     	
+     	font-size: 40px;
+     	width: 55%;
+     	height: 50%;
+     	margin: auto;
+     	margin-top: 13%
+     }
+     
+
+input[type=submit]{
+  background-color: brown;
+  border: none;
+  color: white;
+  
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 13px;
+}
+    
+    #parag:hover{border: 2px solid black;}
+   
+
+    </style>
+</head>
+  
+<body style="background-color: #f2f2f2">
+    <center>
+        <h1 style="font-size: 80px">Transfer Fund</h1>
+  
+        <form action="http://localhost/parag/transfer.php" method="post">
+
+            <div>  
+            <p>
+                <label for="senderid">Enter Sender's ID:</label>
+                <input type="text" name="sender_id" id="senderid" required>
+            </p>
+
+            <p>
+                <label for="receiverid">Enter Receiver's ID:</label>
+                <input type="text" name="receiver_id" id="receiverid" required>
+            </p>
+
+
+            <p>
+                <label for="amount">Enter The Amount:</label>
+                <input type="text" name="amm" id="amount" required>
+            </p>
+
+            
+
+            <input type="submit" value="Transfer" id="parag">
+        </div>
+        </form>
+    </center>
+</body>
+  
+</html>
